@@ -3,7 +3,7 @@
   <metadata>
     <id>VL.Rhino.3dmIO</id>
     <version>0.1.0 -alpha</version>
-    <title>VL.IO.OSC</title>
+    <title>VL.Rhino.3dmIO</title>
     <authors>Wolf Moritz Cramer</authors>
     <owners>Wolf Moritz Cramer</owners>
     <projectUrl>https://github.com/wolfmoritzcramer/VL.Rhino.3dmIO</projectUrl>
@@ -15,7 +15,6 @@
 	<icon>icon\nugeticon.png</icon>
   </metadata>
   <files>
-    <file src="..\lib\**" target="lib\" exclude="" />
     <file src="..\*.vl" target="" exclude="" />
     <file src="..\help\**" target="help\" exclude="" />
 	<file src="nugeticon.png" target="icon\" />

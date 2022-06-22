@@ -1,0 +1,28 @@
+name: push_nuget
+
+# on push on master
+on:
+  push:
+    branches:
+      - master
+    paths-ignore:
+      - README.md
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+    - name: Git Checkout
+      uses: actions/checkout@master
+
+    - name: Setup Nuget.exe
+      uses: nuget/setup-nuget@v1
+
+    - name: Publish VL Nuget
+      uses: vvvv/PublishVLNuget@1.0.29
+      with:
+        csproj: 
+        nuspec: deployment\VL.IO.OSC.nuspec 
+        icon-src: http://root.wolfmoritzcramer.de/share/nugeticon.png
+        icon-dst: ./nugeticon.png
+        nuget-key: ${{ secrets.NUGET_KEY }}

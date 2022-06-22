@@ -8,7 +8,7 @@
     ************************ openNURBS ************************
 
 -->
-      <Node Name="openNURBS" Bounds="145,319" Id="TSttkfeJHQSN5gkEF54G9o">
+      <Node Name="openNURBS" Bounds="154,327" Id="TSttkfeJHQSN5gkEF54G9o">
         <p:NodeReference>
           <Choice Kind="ContainerDefinition" Name="Patch" />
           <FullNameCategoryReference ID="Primitive" />

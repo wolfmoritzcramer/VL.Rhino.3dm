@@ -19,9 +19,8 @@ jobs:
       uses: nuget/setup-nuget@v1
 
     - name: Publish VL Nuget
-      uses: vvvv/PublishVLNuget@1.0.29
-      with:
-        csproj: 
+      uses: vvvv/PublishVLNuget@1.0.41
+      with: 
         nuspec: deployment\VL.IO.OSC.nuspec 
         icon-src: http://root.wolfmoritzcramer.de/share/nugeticon.png
         icon-dst: ./nugeticon.png

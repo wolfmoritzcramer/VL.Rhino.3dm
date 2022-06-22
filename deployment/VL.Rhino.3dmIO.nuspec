@@ -10,9 +10,13 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <summary>VL Library to access Rhino *.3dm Files</summary>
     <description>VL Library to access Rhino *.3dm Files</description>
-    <tags>Rhino3dmIO</tags>
+    <copyright>Copyright © 2022 by vvvv group. All rights reserved.</copyright>
+    <tags>Rhino3dmIO, Rhino, Rhinoceros, VL, 3dm</tags>
 	<license type="expression">LGPL-3.0-only</license>
 	<icon>icon\nugeticon.png</icon>
+   <dependencies>
+      <dependency id="Rhino3dm" version="7.14.0" />
+  </dependencies>      
   </metadata>
   <files>
     <file src="..\*.vl" target="" exclude="" />

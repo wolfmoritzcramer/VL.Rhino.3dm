@@ -22,6 +22,6 @@ jobs:
       uses: vvvv/PublishVLNuget@1.0.41
       with: 
         nuspec: deployment\VL.Rhino.3dmIO.nuspec
-        icon-src: http://root.wolfmoritzcramer.de/share/nugeticon.png
+        icon-src: https://root.wolfmoritzcramer.de/share/nugeticon.png
         icon-dst: ./nugeticon.png
         nuget-key: ${{ secrets.NUGET_KEY }}

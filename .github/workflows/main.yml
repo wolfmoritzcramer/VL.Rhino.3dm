@@ -24,4 +24,4 @@ jobs:
         nuspec: deployment\VL.Rhino.3dm.nuspec
         icon-src: http://kackvogel.org/share/nugeticon.png
         icon-dst: ./nugeticon.png
-        nuget-key: ${{ secrets.NUGET_KEY }}
+        nuget-key: ${{ secrets.NUGET_KEY3DM }}

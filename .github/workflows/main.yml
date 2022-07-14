@@ -22,6 +22,6 @@ jobs:
       uses: vvvv/PublishVLNuget@1.0.41
       with: 
         nuspec: deployment\VL.Rhino.3dm.nuspec
-        icon-src: https://github.com/wolfmoritzcramer/VL.Rhino.3dm/tree/master/rhino3dmicon.png
+        icon-src: https://raw.githubusercontent.com/wolfmoritzcramer/VL.Rhino.3dm/master/rhino3dmicon.png
         icon-dst: ./nugeticon.png
         nuget-key: ${{ secrets.NUGET_KEY3DM }}

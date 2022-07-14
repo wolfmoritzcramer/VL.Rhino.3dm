@@ -484,7 +484,7 @@
             <ControlPoint Id="Sy47PezjvpINlHNxprO68W" Bounds="2002,335" Alignment="Top" />
             <ControlPoint Id="URI9tkbga1YMmIAFgXPuiv" Bounds="2051,334" Alignment="Top" />
           </Node>
-          <Pad Id="UKvKTJCEa60MnFApgOJEOI" Comment="" Bounds="1089,-418,248,318" ShowValueBox="true" isIOBox="true">
+          <Pad Id="UKvKTJCEa60MnFApgOJEOI" Comment="" Bounds="1213,-466,248,318" ShowValueBox="true" isIOBox="true">
             <p:ValueBoxSettings>
               <p:maxvisibleentries p:Type="Int32">20</p:maxvisibleentries>
               <p:showentryindex p:Type="Boolean">true</p:showentryindex>
@@ -1203,7 +1203,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="FileTexture" />
             </p:NodeReference>
-            <Pin Id="CaBZUwlyMYOOItBsxeeRK0" Name="Path" Kind="InputPin" DefaultValue="..\..\..\rhino3dmicon.png">
+            <Pin Id="CaBZUwlyMYOOItBsxeeRK0" Name="Path" Kind="InputPin" DefaultValue="rhino3dmicon.png">
               <p:TypeAnnotation LastCategoryFullName="IO" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="Path" />
               </p:TypeAnnotation>
@@ -1445,7 +1445,7 @@
               <Choice Kind="TypeFlag" Name="Vector3" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="LrHHoWiIX22LUHRerCYHaI" Comment="Filename" Bounds="1672,-255,349,16" ShowValueBox="true" isIOBox="true" Value="..\..\..\RhinoTestfiles\GeometryMix.3dm">
+          <Pad Id="LrHHoWiIX22LUHRerCYHaI" Comment="Filename" Bounds="1672,-255,349,16" ShowValueBox="true" isIOBox="true" Value="GeometryMix.3dm">
             <p:TypeAnnotation LastCategoryFullName="IO" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Path" />
             </p:TypeAnnotation>
@@ -1471,7 +1471,7 @@
                   <Choice Kind="ProcessAppFlag" Name="EvaluateCurve" />
                 </p:NodeReference>
                 <Pin Id="RJiEXhJkSpJMrO3h6uj4t3" Name="Curve" Kind="InputPin" />
-                <Pin Id="UIOOHk3kFG0PRyCcoyJb5T" Name="Parameter" Kind="InputPin" DefaultValue="1" />
+                <Pin Id="UIOOHk3kFG0PRyCcoyJb5T" Name="Parameter" Kind="InputPin" DefaultValue="0.119999997317791" />
                 <Pin Id="TZspXp0e9kyMvn5fnafz5H" Name="Normalize" Kind="InputPin" DefaultValue="True" />
                 <Pin Id="Q0ywcfWutzjNShWf7KDZhj" Name="Point3d" Kind="OutputPin" />
                 <Pin Id="CgOaz6blvawLxVhxc1iHwv" Name="Tangent" Kind="OutputPin" />
@@ -1782,6 +1782,5 @@
   <NugetDependency Id="DFsJGkpHRApLmxiTM2iyjX" Location="VL.CoreLib" Version="2021.4.9" />
   <NugetDependency Id="AEV6dDwwwqDNJi2OaYdTqL" Location="VL.Stride" Version="2021.4.9" />
   <NugetDependency Id="H5N9bOrVLjfOTNpCXPXSBf" Location="VL.Skia" Version="2021.4.9" />
-  <PlatformDependency Id="IP4Wgzf8TqeLLh93z0OxvJ" Location="../../../../Program Files/Rhino 7/System/RhinoCommon.dll" />
-  <DocumentDependency Id="HNBm1ZtzAMCQOi5GfR4pXR" Location="../../VL.Rhino.3dmIO.vl" />
+  <DocumentDependency Id="E6odL9QdXl4QLAJTqu8lEb" Location="../../VL.Rhino.3dm.vl" />
 </Document>

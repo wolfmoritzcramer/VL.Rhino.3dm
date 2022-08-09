@@ -955,27 +955,6 @@
             <Pin Id="DRxjImLH2h2Pnt6hHsct4J" Name="Enabled" Kind="InputPin" />
             <Pin Id="TyEHe4yHSt1PTAuEPVZCed" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="1808,-27,85,19" Id="HGhh5QpOwwJNGFI9F9ToC3">
-            <p:NodeReference LastCategoryFullName="Stride.Materials" LastSymbolSource="VL.Stride.Rendering.ShaderFX.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="PBRMaterial" />
-            </p:NodeReference>
-            <Pin Id="Qt0bClmQyZ2M67SoIOJvXI" Name="Color" Kind="InputPin" DefaultValue="1, 0, 0.05999994, 1" />
-            <Pin Id="Buznkoi2MhoNGKsPcOD86P" Name="Metalness" Kind="InputPin" DefaultValue="0.59" />
-            <Pin Id="MNtMaFyBfYKMyv0GxYkofq" Name="Roughness" Kind="InputPin" DefaultValue="0" />
-            <Pin Id="PBwbpkUNL96Os9POD5FKvl" Name="Transparency" Kind="InputPin" />
-            <Pin Id="UaLMXFTHRYhMmGgRxktRtB" Name="Cull Mode" Kind="InputPin" DefaultValue="None" />
-            <Pin Id="AsSMbt8wUfTMKm1de8h4s5" Name="Output" Kind="OutputPin" />
-          </Node>
-          <Node Bounds="1809,46" Id="M3q2cfAzyk9OhTcmn9jY2v">
-            <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="OperationCallFlag" Name="FromValue" />
-              <CategoryReference Kind="RecordType" Name="Spread" NeedsToBeDirectParent="true" />
-            </p:NodeReference>
-            <Pin Id="GMocYGBkonDMoieZj7QXKS" Name="Input" Kind="InputPin" />
-            <Pin Id="D4eVZkPhtmyNZD8MfLqws0" Name="Result" Kind="OutputPin" />
-          </Node>
         </Canvas>
         <Patch Id="Gh5LZHA8lXkLglMUXM1z2m" Name="Create" />
         <Patch Id="J7Zb8Wk7a4iPT0eqYTmRPr" Name="Update" />
@@ -1094,7 +1073,6 @@
         <Link Id="KfCKZdqxMmzNXlYEdA8PVv" Ids="FHghu30qT5eNlOnIAP66GT,VM1Fu8El94sOZ4GD332isk" />
         <Link Id="VyBM8TVxP8YObWYdxGVjie" Ids="HsI0SqnobBsNYI3KyJ5Q2O,Op4VgV0yk6YN9FzxDTmpHv" />
         <Link Id="N0WUDAYbnyuL7F9wNRwIKn" Ids="TyEHe4yHSt1PTAuEPVZCed,QLQAciMIz63L6lT9GxQi4u" />
-        <Link Id="P77JOnYdz0kLEWcq5iLLjz" Ids="AsSMbt8wUfTMKm1de8h4s5,GMocYGBkonDMoieZj7QXKS" />
         <Link Id="M47VkPR1uW7P1Md13NXM4D" Ids="UZBKpYQqtGzQUxKAIbiuFE,AEmwZ1YxkM5LukHkBpHoJ0" />
         <Link Id="UPWH6HSxv5MNbh5sSXErXM" Ids="LjVEKAt7DDIMoC1j1pdyrG,E2Iz06mbcEdNO9DtJdaQZX" />
         <Link Id="JdoqHGfG2wQPfUPyMyacHj" Ids="E2Iz06mbcEdNO9DtJdaQZX,Ml7EY5MAu5nM2TOowvqtUN" />

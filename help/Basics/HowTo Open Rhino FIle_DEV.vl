@@ -14,12 +14,12 @@
       </p:NodeReference>
       <Patch Id="Ou4epLwA5SnNu1dvHUzfmh">
         <Canvas Id="DQrKbv8AOWZPRfekHgSelC" CanvasType="Group">
-          <Node Bounds="332,427,225,19" Id="TIGe9K6UN15NQJUUGRFMGm">
+          <Node Bounds="330,421,225,19" Id="TIGe9K6UN15NQJUUGRFMGm">
             <p:NodeReference LastCategoryFullName="Stride" LastSymbolSource="VL.Stride.Windowing.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
             </p:NodeReference>
-            <Pin Id="CzA67lnL0iKOLnf38gSMsB" Name="Bounds" Kind="InputPin" DefaultValue="1490.286, 121.7143, 1005.143, 1164" />
+            <Pin Id="CzA67lnL0iKOLnf38gSMsB" Name="Bounds" Kind="InputPin" DefaultValue="1490, 121.3333, 1004.667, 1164" />
             <Pin Id="P8Ior3YIz3KO4iIEzc4SfV" Name="Bound to Document" Kind="InputPin" />
             <Pin Id="PW5q5RCnvjMMIoeaP1HbTD" Name="Input" Kind="InputPin" />
             <Pin Id="LDHEYUS6N2uQRrkSv9rU13" Name="Camera" Kind="InputPin" />
@@ -37,7 +37,7 @@
             <Pin Id="KwCtuWA58DoNxRSJ1KmDDu" Name="Back Buffer" Kind="OutputPin" />
             <Pin Id="QXHBPP3e3bFQROxx3wEBde" Name="Depth Buffer" Kind="OutputPin" />
           </Node>
-          <Node Bounds="371,363,253,19" Id="G7SVOuytXYpLXb5nn2hY1G">
+          <Node Bounds="370,357,253,19" Id="G7SVOuytXYpLXb5nn2hY1G">
             <p:NodeReference LastCategoryFullName="Stride" LastSymbolSource="VL.Stride.Engine.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="RootScene" />
@@ -290,6 +290,8 @@
             <Pin Id="HshrSh6PMdHL4T14vivBjr" Name="Scaling" Kind="OutputPin" />
             <Pin Id="HOyfT5FHdjaLjy0iYpsGlz" Name="Count" Kind="OutputPin" />
             <Pin Id="JTrPX33v0ZRNJZQSjRdRUx" Name="AlignedBox" Kind="OutputPin" />
+            <Pin Id="ShFuHl0F9M5MfO6d02xMkC" Name="Output" Kind="OutputPin" />
+            <Pin Id="B2dR8r2V0O2OxJ1YaAxeZC" Name="Description" Kind="OutputPin" />
           </Node>
           <Pad Id="Ukukmxa8QUTM1DcSrOIKqi" Comment="Reload" Bounds="492,5,35,35" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation>
@@ -328,10 +330,11 @@
             <Pin Id="PP5uUWJF6LLOQ4xKvkxz2j" Name="Materials" Kind="InputPin" />
             <Pin Id="KmIiVgctqETOc8taXDXJ8e" Name="Force" Kind="InputPin" />
             <Pin Id="CdkFrqj8ZrkMYTLl2Pi8VZ" Name="Entity" Kind="OutputPin" />
-            <Pin Id="OOiJ9iJuHnbOCeMHIcn9sc" Name="RenderMesh" Kind="OutputPin" />
-            <Pin Id="OH2d0qdD0OjNQ0S0Pczohf" Name="ParentGuid" Kind="OutputPin" />
-            <Pin Id="FxwjTAeRwkyM8UfCfOg9R1" Name="Output" Kind="OutputPin" />
-            <Pin Id="AHOziUjCdAvNTiTdNZOMcD" Name="GUID" Kind="OutputPin" />
+            <Pin Id="GKsRYlXei3KMxWiRrch5nI" Name="Output" Kind="OutputPin" />
+            <Pin Id="G22oq0pOYPjNukebirw7ii" Name="Transformation" Kind="OutputPin" />
+            <Pin Id="OctJawrZSRBPLg6n2EkROn" Name="ParentGuid" Kind="OutputPin" />
+            <Pin Id="CyrYPO2wXU4LDupFuXtMVg" Name="Output 2" Kind="OutputPin" />
+            <Pin Id="BKjxFzg0nYcMP5CybgloEi" Name="GUID" Kind="OutputPin" />
           </Node>
           <Pad Id="BYW1zV7XCjoNNiCSVqd8V9" Comment="Force" Bounds="526,274,35,35" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation>
@@ -368,7 +371,7 @@
             <Pin Id="P0sjj1w0MAQNmVXAz4ea9i" Name="Inverse View" Kind="OutputPin" />
             <Pin Id="T3yC5DoaLnZMyeJ4gkNSIT" Name="Camera Component" Kind="OutputPin" />
           </Node>
-          <Pad Id="MHubwy7YBVAQRGZYzNDcG9" Comment="Materials" Bounds="-166,132,194,600" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="MHubwy7YBVAQRGZYzNDcG9" Comment="Materials" Bounds="-166,132,233,794" ShowValueBox="true" isIOBox="true" />
           <Node Bounds="149,535,253,134" Id="Bs77NJmYfW2M7ETpZRajzE">
             <p:NodeReference>
               <Choice Kind="ProcessStatefulRegion" Name="Cache" />
@@ -410,7 +413,6 @@
                     </p:NodeReference>
                     <Pin Id="MY9EJ5JjhRGNdUcuY2gQIb" Name="Input" Kind="StateInputPin" />
                     <Pin Id="T6Kog8vPjkNPJtK6mHQwU5" Name="Output" Kind="StateOutputPin" />
-                    <Pin Id="MKb67J5YMnyQH4VSikItyO" Name="IsInstanceDefinition" Kind="OutputPin" />
                     <Pin Id="Nvv0nCyiK33NguMFjuuyNB" Name="Layer" Kind="OutputPin" />
                     <Pin Id="J55wcHk2xDTOKtV7I1U7y3" Name="Color" Kind="OutputPin" />
                     <Pin Id="JVN1f8GI9rQMiUq1tkWcqx" Name="Transformation" Kind="OutputPin" />
@@ -418,6 +420,8 @@
                     <Pin Id="P9zg5z8OsBxOlyt4cKYCFC" Name="ParentGuid" Kind="OutputPin" />
                     <Pin Id="LQZsp2YuWeWMRj2nxGE3k6" Name="ObjectIDs" Kind="OutputPin" />
                     <Pin Id="OH7gGqcH3jjNTGQd9CHDiO" Name="GUID" Kind="OutputPin" />
+                    <Pin Id="MKb67J5YMnyQH4VSikItyO" Name="IsInstanceDefinition" Kind="OutputPin" />
+                    <Pin Id="UWnvMCfN6fSNroqTtovdxA" Name="IsReference" Kind="OutputPin" />
                     <Pin Id="EzSzF3scTuUPHoUhuRWZKw" Name="ObjectType" Kind="OutputPin" />
                   </Node>
                 </Patch>
@@ -541,12 +545,10 @@
             <Pin Id="KXFrq0RFxptL4anMhPx4Rn" Name="Input" Kind="InputPin" />
             <Pin Id="AUdntRi0WX5PBbPDJvkWLi" Name="Result" Kind="OutputPin" />
           </Node>
-          <Pad Id="KbUEH4rGnSLNcxK5kQmGlE" Comment="ParentGuid" Bounds="626,632,243,268" ShowValueBox="true" isIOBox="true">
-            <p:Value>
-              <Item></Item>
-            </p:Value>
+          <Pad Id="Uuq2YqDP71PN9i994mazRi" Comment="GUID" Bounds="855,630,190,132" ShowValueBox="true" isIOBox="true">
+            <p:Value />
           </Pad>
-          <Pad Id="T6kT0zZLxhqOnQGgIpvFMV" Comment="GUID" Bounds="950,560,322,403" ShowValueBox="true" isIOBox="true">
+          <Pad Id="HlO2UP4FL8WNc8VHXLY9lK" Comment="ParentGuid" Bounds="657,771,399,186" ShowValueBox="true" isIOBox="true">
             <p:Value>
               <Item></Item>
             </p:Value>
@@ -617,11 +619,11 @@
         <Link Id="Un1xPCrPljCPB0vHBzgY5D" Ids="GJXIHAueBCZPYgOYZEPXxb,KXFrq0RFxptL4anMhPx4Rn" />
         <Link Id="KBO57Y30m8YNe42skmuHNB" Ids="AUdntRi0WX5PBbPDJvkWLi,PNLRXoZELONK9WHX4pURDh" />
         <Link Id="DDX2xg9a7M6NZJDR2GZLLZ" Ids="K15Oo0Z9KMQQQaHOVKGVtc,NvjFFUeuURmMMDJK8v6ygO" />
-        <Link Id="RyT9JHqLEZINPlgqKZDv8I" Ids="OH2d0qdD0OjNQ0S0Pczohf,KbUEH4rGnSLNcxK5kQmGlE" />
-        <Link Id="BJzpgRM8EtUO7QteKDqpJH" Ids="AHOziUjCdAvNTiTdNZOMcD,T6kT0zZLxhqOnQGgIpvFMV" />
         <Link Id="PPwcu3Rbi5dPKWuGXG9ZQE" Ids="LQZsp2YuWeWMRj2nxGE3k6,OD7ldJFTYfOLl6OtUynbb9" />
         <Link Id="PwUItL4HLg2N3nYxH3t1Pn" Ids="OD7ldJFTYfOLl6OtUynbb9,Jomj277iu3FNGFvRevupCu" />
         <Link Id="IToSxBxSXFaMhwJ2MsqqkQ" Ids="K15Oo0Z9KMQQQaHOVKGVtc,Eg21aE8gv67OR6Jsjxj26g" />
+        <Link Id="QMht5xAam1EP7yJ7s5NXCx" Ids="BKjxFzg0nYcMP5CybgloEi,Uuq2YqDP71PN9i994mazRi" />
+        <Link Id="JZZfTwcW3lgQTQHb05Ol04" Ids="OctJawrZSRBPLg6n2EkROn,HlO2UP4FL8WNc8VHXLY9lK" />
       </Patch>
     </Node>
   </Patch>

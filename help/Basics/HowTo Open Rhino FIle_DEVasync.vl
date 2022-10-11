@@ -19,7 +19,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
             </p:NodeReference>
-            <Pin Id="CzA67lnL0iKOLnf38gSMsB" Name="Bounds" Kind="InputPin" DefaultValue="558.6667, 331.3333, 1084.667, 1164" />
+            <Pin Id="CzA67lnL0iKOLnf38gSMsB" Name="Bounds" Kind="InputPin" DefaultValue="1387.333, 73.33334, 1084.667, 1164" />
             <Pin Id="P8Ior3YIz3KO4iIEzc4SfV" Name="Bound to Document" Kind="InputPin" DefaultValue="False" />
             <Pin Id="PW5q5RCnvjMMIoeaP1HbTD" Name="Input" Kind="InputPin" />
             <Pin Id="LDHEYUS6N2uQRrkSv9rU13" Name="Camera" Kind="InputPin" />
@@ -153,7 +153,7 @@
               <Choice Kind="TypeFlag" Name="Path" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="638,-11,59,19" Id="VLZyPe01PzdQPzxz5WRuVx">
+          <Node Bounds="659,-11,59,19" Id="VLZyPe01PzdQPzxz5WRuVx">
             <p:NodeReference LastCategoryFullName="Stride.Input" LastSymbolSource="VL.Stride.Engine.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Keyboard" />
@@ -164,7 +164,7 @@
             <Pin Id="JKYVqtOwnD5PCcRgREAqyF" Name="Output" Kind="OutputPin" />
             <Pin Id="GlqJZ6VoSKEMRFHB1iCA7L" Name="Keyboard Device" Kind="OutputPin" />
           </Node>
-          <Node Bounds="692,39,55,19" Id="UMqvfP3vBkzNmNlBMmoUnG">
+          <Node Bounds="713,39,55,19" Id="UMqvfP3vBkzNmNlBMmoUnG">
             <p:NodeReference LastCategoryFullName="Stride.Input" LastSymbolSource="VL.Stride.Input.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="KeyBang" />
@@ -176,7 +176,7 @@
             <Pin Id="BWxUN7yd6mSQVgYhjLFmcG" Name="Key" Kind="InputPin" />
             <Pin Id="PoOk9EljKZgNio3MsEBUOv" Name="Result" Kind="OutputPin" />
           </Node>
-          <Pad Id="BhkQAd87Q0vOA2nNIjztV2" Comment="Key" Bounds="744,19,119,15" ShowValueBox="true" isIOBox="true" Value="Space">
+          <Pad Id="BhkQAd87Q0vOA2nNIjztV2" Comment="Key" Bounds="765,19,119,15" ShowValueBox="true" isIOBox="true" Value="Space">
             <p:TypeAnnotation LastCategoryFullName="Stride.Input" LastSymbolSource="Stride.Input.dll">
               <Choice Kind="TypeFlag" Name="Keys" />
             </p:TypeAnnotation>
@@ -456,20 +456,8 @@
               <Choice Kind="TypeFlag" Name="RGBA" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="BPTyUGsdk0JM60yeSwx18B" SlotId="Nw73HfxNfLhNP5GebruCyW" Bounds="640,34" />
+          <Pad Id="BPTyUGsdk0JM60yeSwx18B" SlotId="Nw73HfxNfLhNP5GebruCyW" Bounds="661,23" />
           <Pad Id="VEV9XN2OCbqNvghIytOg3b" SlotId="Nw73HfxNfLhNP5GebruCyW" Bounds="372,553" />
-          <Node Bounds="1061,261,85,19" Id="VOGO9WnYpvUNS9CRpmUGWy">
-            <p:NodeReference LastCategoryFullName="Stride.Materials" LastSymbolSource="VL.Stride.Rendering.ShaderFX.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="PBRMaterial" />
-            </p:NodeReference>
-            <Pin Id="NTIX66Fx6T8NviYWNG03WF" Name="Color" Kind="InputPin" DefaultValue="1, 0, 0.05999994, 1" />
-            <Pin Id="M6wjAO5LgLqPqS7AHmi1PS" Name="Metalness" Kind="InputPin" />
-            <Pin Id="GEYI5VBBiQ8OXpZSrk88Kg" Name="Roughness" Kind="InputPin" />
-            <Pin Id="PjRlkXpXwx4QZmDBtYYItp" Name="Transparency" Kind="InputPin" />
-            <Pin Id="Rrs5oAFWfG2QVlCovHdI07" Name="Cull Mode" Kind="InputPin" DefaultValue="None" />
-            <Pin Id="T5y7XfHIdqbLO87LnCDoRm" Name="Output" Kind="OutputPin" />
-          </Node>
           <Node Bounds="658,278,63,19" Id="EpZ4fJ9AyMsLQjwq8OiHCV">
             <p:NodeReference LastCategoryFullName="Graphics.Rhino.3dm" LastSymbolSource="VL.Rhino.3dm.vl" OverloadStrategy="AllPinsThatAreNotCommon">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />

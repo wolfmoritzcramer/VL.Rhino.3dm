@@ -8,7 +8,7 @@
     ************************ Point3ds ************************
 
 -->
-      <Node Name="Point3ds" Bounds="153,519" Id="GBPHOwK693tOTN3ALCjF5d">
+      <Node Name="Point3ds" Bounds="180,452" Id="GBPHOwK693tOTN3ALCjF5d">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -275,10 +275,10 @@
       </Node>
       <!--
 
-    ************************ RhinoReader ************************
+    ************************ RhinoReaderOld ************************
 
 -->
-      <Node Name="RhinoReader" Bounds="153,182" Id="TIXybeWmN1QOEzBniLLjZ3">
+      <Node Name="RhinoReaderOld" Bounds="185,400" Id="TIXybeWmN1QOEzBniLLjZ3">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -395,7 +395,7 @@
     ************************ BoundingBox ************************
 
 -->
-      <Node Name="BoundingBox" Bounds="153,294" Id="T6KFvk0FWZCOpiPm6VGkBS">
+      <Node Name="BoundingBox" Bounds="180,227" Id="T6KFvk0FWZCOpiPm6VGkBS">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -717,7 +717,7 @@
     ************************ Count ************************
 
 -->
-      <Node Name="Count" Bounds="337,294" Id="FLKbPsBGuxQP1nxcwjKFsG">
+      <Node Name="Count" Bounds="364,227" Id="FLKbPsBGuxQP1nxcwjKFsG">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -810,7 +810,7 @@
     ************************ Point3dsVector3s ************************
 
 -->
-      <Node Name="Point3dsVector3s" Bounds="153,627" Id="BbQFZEW4mHkQO3cK31WQrk">
+      <Node Name="Point3dsVector3s" Bounds="180,560" Id="BbQFZEW4mHkQO3cK31WQrk">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -864,7 +864,7 @@
     ************************ Point3dVector3 ************************
 
 -->
-      <Node Name="Point3dVector3" Bounds="153,588" Id="Os1rpg7YJB2M42OqRJWCAW">
+      <Node Name="Point3dVector3" Bounds="180,521" Id="Os1rpg7YJB2M42OqRJWCAW">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -1002,7 +1002,7 @@
     ************************ Curves ************************
 
 -->
-      <Node Name="Curves" Bounds="337,519" Id="OeMw6y08rlMMGAbxFyGqAE">
+      <Node Name="Curves" Bounds="364,452" Id="OeMw6y08rlMMGAbxFyGqAE">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -1313,7 +1313,7 @@
     ************************ CurvesMeshes ************************
 
 -->
-      <Node Name="CurvesMeshes" Bounds="337,627" Id="S3kDpP8f2kJPXtcuOAf79k">
+      <Node Name="CurvesMeshes" Bounds="364,560" Id="S3kDpP8f2kJPXtcuOAf79k">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -1392,7 +1392,7 @@
     ************************ Breps ************************
 
 -->
-      <Node Name="Breps" Bounds="695,517" Id="HlzcvFS9Rj5LZHR6gnQ2FI">
+      <Node Name="Breps" Bounds="722,450" Id="HlzcvFS9Rj5LZHR6gnQ2FI">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -1705,7 +1705,7 @@
     ************************ BrepsMeshes ************************
 
 -->
-      <Node Name="BrepsMeshes" Bounds="697,623" Id="LXi8TucAbIuL7gHsbeZlTD">
+      <Node Name="BrepsMeshes" Bounds="724,556" Id="LXi8TucAbIuL7gHsbeZlTD">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -1806,7 +1806,7 @@
     ************************ Meshes ************************
 
 -->
-      <Node Name="Meshes" Bounds="1061,517" Id="GuvgB2jg1XwQHEj6vECJWj">
+      <Node Name="Meshes" Bounds="1088,450" Id="GuvgB2jg1XwQHEj6vECJWj">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -2069,7 +2069,7 @@
     ************************ MeshesMeshes ************************
 
 -->
-      <Node Name="MeshesMeshes" Bounds="1060,625" Id="UoYqApFchiyOY563nfe7hb">
+      <Node Name="MeshesMeshes" Bounds="1087,558" Id="UoYqApFchiyOY563nfe7hb">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -2141,7 +2141,7 @@
     ************************ SubDs ************************
 
 -->
-      <Node Name="SubDs" Bounds="878,517" Id="N0GuDtZWyWsOXQI1wm5uc7">
+      <Node Name="SubDs" Bounds="905,450" Id="N0GuDtZWyWsOXQI1wm5uc7">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -2414,7 +2414,7 @@
     ************************ SubDsMeshes ************************
 
 -->
-      <Node Name="SubDsMeshes" Bounds="873,620" Id="Csp12ApYLqfNXCpFH9iiAW">
+      <Node Name="SubDsMeshes" Bounds="900,553" Id="Csp12ApYLqfNXCpFH9iiAW">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -2546,7 +2546,7 @@
     ************************ FilterLayer ************************
 
 -->
-      <Node Name="FilterLayer" Bounds="703,294" Id="MFEpul4cG2XMBEtzYK1sdz">
+      <Node Name="FilterLayer" Bounds="730,227" Id="MFEpul4cG2XMBEtzYK1sdz">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -2804,7 +2804,7 @@
     ************************ LayerNames ************************
 
 -->
-      <Node Name="LayerNames" Bounds="469,294" Id="Di25OprliFaNd8ro9VEIwy">
+      <Node Name="LayerNames" Bounds="496,227" Id="Di25OprliFaNd8ro9VEIwy">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -2923,7 +2923,7 @@
     ************************ ToVertices ************************
 
 -->
-      <Node Name="ToVertices" Bounds="1237,588" Id="Cn3KoOSoqnKO31oUDqezH0">
+      <Node Name="ToVertices" Bounds="1264,521" Id="Cn3KoOSoqnKO31oUDqezH0">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -3630,7 +3630,7 @@
     ************************ IsoCurves ************************
 
 -->
-      <Node Name="IsoCurves" Bounds="700,850" Id="IO4WthE6AHIOlmHsbFhkTp">
+      <Node Name="IsoCurves" Bounds="727,783" Id="IO4WthE6AHIOlmHsbFhkTp">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -4021,7 +4021,7 @@
     ************************ EvaluateCurve ************************
 
 -->
-      <Node Name="EvaluateCurve" Bounds="337,760" Id="KkcR1sh080PL71xs7YTrBx">
+      <Node Name="EvaluateCurve" Bounds="364,693" Id="KkcR1sh080PL71xs7YTrBx">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -4273,7 +4273,7 @@
     ************************ Vector3dVector3 ************************
 
 -->
-      <Node Name="Vector3dVector3" Bounds="153,760" Id="FIJuDHdN4IqPz4nLOZc3Tp">
+      <Node Name="Vector3dVector3" Bounds="180,693" Id="FIJuDHdN4IqPz4nLOZc3Tp">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -4406,7 +4406,7 @@
     ************************ CurveMesh ************************
 
 -->
-      <Node Name="CurveMesh" Bounds="337,588" Id="Lj9BSLYVFoKOE3ek3eAXmI">
+      <Node Name="CurveMesh" Bounds="364,521" Id="Lj9BSLYVFoKOE3ek3eAXmI">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -4744,7 +4744,7 @@
     ************************ Scaling ************************
 
 -->
-      <Node Name="Scaling" Bounds="883,293" Id="DgeMgQj3uU7Lr66qtCu6VL">
+      <Node Name="Scaling" Bounds="910,226" Id="DgeMgQj3uU7Lr66qtCu6VL">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -4919,7 +4919,7 @@
     ************************ EvaluateSurface ************************
 
 -->
-      <Node Name="EvaluateSurface" Bounds="695,758" Id="FDfs67M8MQ3MfSTYwVvqYl">
+      <Node Name="EvaluateSurface" Bounds="722,691" Id="FDfs67M8MQ3MfSTYwVvqYl">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -5378,7 +5378,7 @@
     ************************ LineSDL ************************
 
 -->
-      <Node Name="LineSDL" Bounds="342,850" Id="ADuAkoGzFBuMgDtrv6LgdN">
+      <Node Name="LineSDL" Bounds="369,783" Id="ADuAkoGzFBuMgDtrv6LgdN">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -5470,7 +5470,7 @@
     ************************ PlaneCurves ************************
 
 -->
-      <Node Name="PlaneCurves" Bounds="160,890" Id="NCgXo0M5jLdMVQTUDo5SZi">
+      <Node Name="PlaneCurves" Bounds="187,823" Id="NCgXo0M5jLdMVQTUDo5SZi">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -5621,7 +5621,7 @@
     ************************ PlaneEntiy ************************
 
 -->
-      <Node Name="PlaneEntiy" Bounds="161,931" Id="VsW5gDId3LINkqwakLs36S">
+      <Node Name="PlaneEntiy" Bounds="188,864" Id="VsW5gDId3LINkqwakLs36S">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -5831,7 +5831,7 @@
     ************************ PlaneSplit ************************
 
 -->
-      <Node Name="PlaneSplit" Bounds="160,846" Id="BEMiCfSxcfeLrNq9rNfDQN">
+      <Node Name="PlaneSplit" Bounds="187,779" Id="BEMiCfSxcfeLrNq9rNfDQN">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -5986,7 +5986,7 @@
     ************************ DivideSurface ************************
 
 -->
-      <Node Name="DivideSurface" Bounds="696,799" Id="KFXTCGmLDIDN7n5VBSekED">
+      <Node Name="DivideSurface" Bounds="723,732" Id="KFXTCGmLDIDN7n5VBSekED">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -6161,7 +6161,7 @@
     ************************ DivideCurve ************************
 
 -->
-      <Node Name="DivideCurve" Bounds="339,801" Id="JoAqRQzsStMLbryQ8kmhzA">
+      <Node Name="DivideCurve" Bounds="366,734" Id="JoAqRQzsStMLbryQ8kmhzA">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -6304,7 +6304,7 @@
           <Link Id="SaxiC06mcenP3A9RgVksvZ" Ids="FiJPH90PXGLOSiYF4bEPX1,StkOdmeQQhqOmgozNYQVgi" />
         </Patch>
       </Node>
-      <Canvas Id="PD5xNYg4wGaO49ZCawMuHU" Name="Internal" Position="145,-71">
+      <Canvas Id="PD5xNYg4wGaO49ZCawMuHU" Name="Internal" Position="142,-206">
         <!--
 
     ************************ RhinoObjectGeometryBase ************************
@@ -8387,70 +8387,6 @@
                             <Pin Id="BzbV8lvURsqNjjkh4eaOfV" Name="Input" Kind="InputPin" />
                             <Pin Id="TzaoSJLrLN7OIDx21bNayr" Name="Result" Kind="OutputPin" />
                           </Node>
-                          <Node Bounds="483,-32,67,26" Id="HeXqtWwME6HQSuXBX2aPYg">
-                            <p:NodeReference LastCategoryFullName="Rhino.DocObjects.Material" LastSymbolSource="Rhino3dm.dll">
-                              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                              <CategoryReference Kind="AssemblyCategory" Name="Material" />
-                              <Choice Kind="OperationCallFlag" Name="GetTexture" />
-                            </p:NodeReference>
-                            <Pin Id="B8Sv99tzzhqL3WCwi79FwI" Name="Input" Kind="StateInputPin" />
-                            <Pin Id="SsMZVKLUVBiOjVuKURpLwx" Name="Which" Kind="InputPin" DefaultValue="Bitmap" />
-                            <Pin Id="Oy3uP9N7lz9NqUAl9xtUPf" Name="Output" Kind="StateOutputPin" />
-                            <Pin Id="IIly210391TPerKsqcOjRC" Name="Result" Kind="OutputPin" />
-                          </Node>
-                          <Node Bounds="511,21,65,19" Id="A2NyibWPIZYOIA0Y4qOwI2">
-                            <p:NodeReference LastCategoryFullName="Primitive.Object" LastSymbolSource="CoreLibBasics.vl">
-                              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                              <Choice Kind="OperationCallFlag" Name="IsAssigned" />
-                            </p:NodeReference>
-                            <Pin Id="H6xIcoWZilzP1qKD3ALuFe" Name="X" Kind="InputPin" />
-                            <Pin Id="NHQMTtlxVttQVEOaBn2TVt" Name="Result" Kind="OutputPin" />
-                            <Pin Id="AXX6Pd4R962PAyWfQFmXHl" Name="Not Assigned" Kind="OutputPin" />
-                          </Node>
-                          <Node Bounds="534,51,222,125" Id="C2wMvPpLYHXMYygqYCqCQa">
-                            <p:NodeReference>
-                              <Choice Kind="ApplicationStatefulRegion" Name="If" />
-                              <FullNameCategoryReference ID="Primitive" />
-                            </p:NodeReference>
-                            <Pin Id="UAiwHQ6VXqPNoSfuWsEnFh" Name="Condition" Kind="InputPin" />
-                            <Patch Id="ILmnqMop4XWQOQfwCxVs0z" ManuallySortedPins="true">
-                              <Patch Id="RrnICa9X1AWQYRWpFkqpHs" Name="Create" ManuallySortedPins="true" />
-                              <Patch Id="JqUmXjoTN42NQEwNFEhqWt" Name="Then" ManuallySortedPins="true" />
-                              <Node Bounds="546,74,58,26" Id="NDxF9vuWXDmMH6voGb9UOn">
-                                <p:NodeReference LastCategoryFullName="Rhino.DocObjects.Texture" LastSymbolSource="Rhino3dm.dll">
-                                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                                  <CategoryReference Kind="AssemblyCategory" Name="Texture" />
-                                  <Choice Kind="OperationCallFlag" Name="FileName" />
-                                </p:NodeReference>
-                                <Pin Id="AWgQBpA88hWMOSBxB8FZy6" Name="Input" Kind="StateInputPin" />
-                                <Pin Id="DppJeguPKwVPrICEbn1JUN" Name="Output" Kind="StateOutputPin" />
-                                <Pin Id="Khsvx31uuohO4amrmTosGu" Name="File Name" Kind="OutputPin" />
-                              </Node>
-                              <Node Bounds="639,137,105,19" Id="C3DjuYUea8EOETEAe83fW4">
-                                <p:NodeReference LastCategoryFullName="Stride.Assets" LastSymbolSource="VL.Stride.Assets.Windows.vl">
-                                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                                  <Choice Kind="ProcessAppFlag" Name="FileTexture" />
-                                </p:NodeReference>
-                                <Pin Id="EtYrfVOGzyQNWccYsC19s8" Name="Path" Kind="InputPin" />
-                                <Pin Id="DiGv6OPdNsjPfNXYIm6QAS" Name="Generate Mipmaps" Kind="InputPin" />
-                                <Pin Id="MwgQ1fGYTACOqAS9TyoO5l" Name="Premultiply Alpha" Kind="InputPin" />
-                                <Pin Id="QoROIDPtJAAOdMXdpotuqY" Name="Compress" Kind="InputPin" />
-                                <Pin Id="S0XG7JhTn39LNXyYkEkdhJ" Name="Alpha Format" Kind="InputPin" />
-                                <Pin Id="QRPrWBoGkzvNhw7qqjfQ3Y" Name="Reload" Kind="InputPin" />
-                                <Pin Id="Q4YGc2p9YQjLbgKIxyO99x" Name="Texture" Kind="OutputPin" />
-                                <Pin Id="LAD5CRdvsJyNUO4ozR52aO" Name="Is Loading" Kind="OutputPin" />
-                                <Pin Id="MDtxTSe8qK3N3vzJokOCC3" Name="Already Loaded" Kind="OutputPin" />
-                              </Node>
-                              <Node Bounds="638,109,48,19" Id="VHzqFVlJAfdOi1vH18wmtS">
-                                <p:NodeReference LastCategoryFullName="IO" LastSymbolSource="CoreLibBasics.vl">
-                                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                                  <Choice Kind="OperationCallFlag" Name="ToPath" />
-                                </p:NodeReference>
-                                <Pin Id="Mf770YlSuNpNG57ywx67rs" Name="Input" Kind="InputPin" />
-                                <Pin Id="N3ezUoX0OHNP5Vf9rvNHOy" Name="Result" Kind="OutputPin" />
-                              </Node>
-                            </Patch>
-                          </Node>
                         </Patch>
                         <ControlPoint Id="SB5sGnIEc9WPSkGGqVkxB7" Bounds="-228,-71" Alignment="Top" />
                         <ControlPoint Id="OfBZQHxBe2ZOpqxEq5qWXW" Bounds="22,1073" Alignment="Bottom" />
@@ -8564,12 +8500,6 @@
             <Link Id="IekXszmcrUlMC5E9qNqsRn" Ids="Puv6oZkT99LOuialkYqAV2,CWshuSbCnujP4F0POCxLTE" IsHidden="true" />
             <Link Id="G9WQNmWBqwkMiliJ6yJJdh" Ids="OEAJkV66ywvO5LalKX0ulN,Puv6oZkT99LOuialkYqAV2" />
             <Link Id="JWelljW14iOQK0StSmNszh" Ids="PgnCMAIlnFdNnQd064KenU,OfBZQHxBe2ZOpqxEq5qWXW" />
-            <Link Id="N4EhO5iP7PyLiMQFd535EY" Ids="Nlllz7gX0BPOFdttbpKP7q,B8Sv99tzzhqL3WCwi79FwI" />
-            <Link Id="OQ1mSyFNNUTMDK8j13FC8S" Ids="IIly210391TPerKsqcOjRC,AWgQBpA88hWMOSBxB8FZy6" />
-            <Link Id="EaMiptqPMytM3LxavmiApk" Ids="Khsvx31uuohO4amrmTosGu,Mf770YlSuNpNG57ywx67rs" />
-            <Link Id="Prnlxyat5sALH9VxxjCCPh" Ids="N3ezUoX0OHNP5Vf9rvNHOy,EtYrfVOGzyQNWccYsC19s8" />
-            <Link Id="C2belHbAyB0PhvAkzB3uz9" Ids="IIly210391TPerKsqcOjRC,H6xIcoWZilzP1qKD3ALuFe" />
-            <Link Id="AxgdCWw0EOtNLqozkJGVht" Ids="NHQMTtlxVttQVEOaBn2TVt,UAiwHQ6VXqPNoSfuWsEnFh" />
           </Patch>
         </Node>
         <!--
@@ -8739,7 +8669,7 @@
                 <Patch Id="K1hDW8nKguAMDbrbLKLgeo" ManuallySortedPins="true">
                   <Patch Id="K7Z8JoyDjvWPyatRFU2kjZ" Name="Create" ManuallySortedPins="true" />
                   <Patch Id="Gr7nuKJ9DkjLApDndL905a" Name="Then" ManuallySortedPins="true" />
-                  <Node Bounds="607,396,389,357" Id="GW6M1U4rBJsNg5R84B0vmZ">
+                  <Node Bounds="607,370,437,396" Id="GW6M1U4rBJsNg5R84B0vmZ">
                     <p:NodeReference>
                       <Choice Kind="ProcessStatefulRegion" Name="Cache" />
                       <FullNameCategoryReference ID="Primitive" />
@@ -8753,7 +8683,7 @@
                     <Patch Id="SgZe6utgd2pPNbxZwiKthX" ManuallySortedPins="true">
                       <Patch Id="Eybg5C0jy29O3tTisU41Hs" Name="Create" ManuallySortedPins="true" />
                       <Patch Id="EJCsKk7JUfOOAXC38WQ1oK" Name="Then" ManuallySortedPins="true" />
-                      <Node Bounds="620,419,57,26" Id="JiXQd3ZPtQ9OpdAZ9KjjxO">
+                      <Node Bounds="619,393,57,26" Id="JiXQd3ZPtQ9OpdAZ9KjjxO">
                         <p:NodeReference LastCategoryFullName="Rhino.FileIO.File3dm" LastSymbolSource="Rhino3dm.dll">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationCallFlag" Name="AllLayers" />
@@ -8809,7 +8739,15 @@
                         <ControlPoint Id="BowysUhIkJ9N32Nz4mVILh" Bounds="708,690" Alignment="Bottom" />
                         <ControlPoint Id="VDvHGvnIpeNOtkjlQFMGqy" Bounds="748,690" Alignment="Bottom" />
                         <ControlPoint Id="DEVLRgGguaqLWIpYCmbErj" Bounds="842,690" Alignment="Bottom" />
-                        <ControlPoint Id="CkIxFmy3wpyPMHsnE4VGd3" Bounds="967,690" Alignment="Bottom" />
+                      </Node>
+                      <Node Bounds="949,719" Id="L6tz5mDgwN3Qd3a9cOF6VO">
+                        <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
+                          <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                          <Choice Kind="OperationCallFlag" Name="FromSequence" />
+                          <CategoryReference Kind="RecordType" Name="Spread" NeedsToBeDirectParent="true" />
+                        </p:NodeReference>
+                        <Pin Id="HZuAG99xkCPPZnCmYzWZTF" Name="Input" Kind="StateInputPin" />
+                        <Pin Id="VWqFtFDoKMnL9ZOk6YF4fJ" Name="Result" Kind="OutputPin" />
                       </Node>
                     </Patch>
                     <ControlPoint Id="E4PpJoOn4pXNNajxJlUh6o" Bounds="788,747" Alignment="Bottom" />
@@ -8876,14 +8814,14 @@
             <Link Id="HkQKFqIlS8kNXRk8WR8ec2" Ids="MnmkyAfSuCxP9VFs6FgfS6,Lt6Gw1CGsiPQcjx6E48xaQ" IsFeedback="true" />
             <Link Id="EIaUVrsI4lKPdoaGjnVjLN" Ids="UrpCEgTthlJMMXQDj0ZdyB,Lt6Gw1CGsiPQcjx6E48xaQ" />
             <Link Id="SePELgikCzmMRkJM3dZkgi" Ids="Lt6Gw1CGsiPQcjx6E48xaQ,EyWyUMWoNvXPP1mv09wOGT" />
-            <Link Id="QIGOqWwQD1nPJ13XbHsNkK" Ids="MJKZfBW4vsfP68tUJsxalF,CkIxFmy3wpyPMHsnE4VGd3" />
-            <Link Id="SqMTgtDCjj6Opmxu20J4Jn" Ids="CkIxFmy3wpyPMHsnE4VGd3,NIAltbfNkcGLlYsUAeNVef" />
             <Link Id="CF8DdJLOtwOPUYB1nOqkpU" Ids="Mx21Hy2DvFILySTkWrKdq1,O82Olh4bLy8QXFBReOJxmj" IsFeedback="true" />
             <Link Id="CWateYpjzEKLsRpnQBZG2v" Ids="NIAltbfNkcGLlYsUAeNVef,O82Olh4bLy8QXFBReOJxmj" />
             <Link Id="VgRGcGtOK75OfwzjIudrXe" Ids="VdRdIukeL11LNrzo2K0SJD,QTvmXLnHiJBOIXa5SfdFAI" IsHidden="true" />
             <Link Id="CqoQyNql6U3NJHF68hbOgU" Ids="O82Olh4bLy8QXFBReOJxmj,VdRdIukeL11LNrzo2K0SJD" />
             <Link Id="EaAGjzvkvFtO8SpS59nobo" Ids="Tk9Xkf8YMKTO1K31H5NYSF,TUUr0vwMX4gPo8p8V7BuUN" IsHidden="true" />
             <Link Id="Kv7pBvnmbbvQGkiSIerAgI" Ids="TUUr0vwMX4gPo8p8V7BuUN,DEVLRgGguaqLWIpYCmbErj" />
+            <Link Id="ANo8CFtoNr1LrMY1KefFkX" Ids="ELV1kXnFEBPOpsvndNIkkf,HZuAG99xkCPPZnCmYzWZTF" />
+            <Link Id="IpeNHUarTxbOlZLvvz4ust" Ids="VWqFtFDoKMnL9ZOk6YF4fJ,NIAltbfNkcGLlYsUAeNVef" />
           </Patch>
         </Node>
         <!--
@@ -9241,7 +9179,7 @@
     ************************ BrepMesh ************************
 
 -->
-      <Node Name="BrepMesh" Bounds="696,587" Id="GpOZXypUPRBMHEIxwFAIes">
+      <Node Name="BrepMesh" Bounds="723,520" Id="GpOZXypUPRBMHEIxwFAIes">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -9621,7 +9559,7 @@
     ************************ MeshMesh ************************
 
 -->
-      <Node Name="MeshMesh" Bounds="1060,588" Id="AJ07tB0IDTFOQm3sbiYMTC">
+      <Node Name="MeshMesh" Bounds="1087,521" Id="AJ07tB0IDTFOQm3sbiYMTC">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -9803,7 +9741,7 @@
     ************************ Extrusions ************************
 
 -->
-      <Node Name="Extrusions" Bounds="516,517" Id="AOipIVMqvucMqFdyGu3fZB">
+      <Node Name="Extrusions" Bounds="543,450" Id="AOipIVMqvucMqFdyGu3fZB">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -10084,7 +10022,7 @@
     ************************ ExtrusionMesh ************************
 
 -->
-      <Node Name="ExtrusionMesh" Bounds="517,589" Id="AoIMVvCQFdyOELwQQEbAUn">
+      <Node Name="ExtrusionMesh" Bounds="544,522" Id="AoIMVvCQFdyOELwQQEbAUn">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -10245,7 +10183,7 @@
     ************************ ExtrusionsMeshes ************************
 
 -->
-      <Node Name="ExtrusionsMeshes" Bounds="516,624" Id="IrrtBbLucVkNJQgrrr3FzB">
+      <Node Name="ExtrusionsMeshes" Bounds="543,557" Id="IrrtBbLucVkNJQgrrr3FzB">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -10358,7 +10296,7 @@
     ************************ SubDMesh ************************
 
 -->
-      <Node Name="SubDMesh" Bounds="871,584" Id="JsMxAwEalLhOuvCeRdZg3D">
+      <Node Name="SubDMesh" Bounds="898,517" Id="JsMxAwEalLhOuvCeRdZg3D">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -10497,7 +10435,7 @@
     ************************ XFormMatrix ************************
 
 -->
-      <Node Name="XFormMatrix" Bounds="155,688" Id="Et69bRv2Q4VQGH1DLSyjeO">
+      <Node Name="XFormMatrix" Bounds="182,621" Id="Et69bRv2Q4VQGH1DLSyjeO">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -10920,7 +10858,7 @@
     ************************ Instances ************************
 
 -->
-      <Node Name="Instances" Bounds="1401,521" Id="PJmWvestxZkNsT5f7YUdrU">
+      <Node Name="Instances" Bounds="1428,454" Id="PJmWvestxZkNsT5f7YUdrU">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -11560,7 +11498,7 @@
     ************************ VLRhinoObject ************************
 
 -->
-      <Node Name="VLRhinoObject" Bounds="148,-16" Id="GfB6wD2iwTENROyajVNG3x">
+      <Node Name="VLRhinoObject" Bounds="145,-151" Id="GfB6wD2iwTENROyajVNG3x">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ClassDefinition" Name="Class" />
         </p:NodeReference>
@@ -14951,10 +14889,10 @@
       </Node>
       <!--
 
-    ************************ RhinoReader2 ************************
+    ************************ RhinoReader ************************
 
 -->
-      <Node Name="RhinoReader2" Bounds="150,21" Id="PyjUXn8oZzvPNvAuOUPAy1">
+      <Node Name="RhinoReader" Bounds="147,-114" Id="PyjUXn8oZzvPNvAuOUPAy1">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -15376,7 +15314,7 @@
     ************************ RhinoEntity ************************
 
 -->
-      <Node Name="RhinoEntity" Bounds="314,23" Id="O5JeGt0XqZtPLaEmcdYgZW">
+      <Node Name="RhinoEntity" Bounds="147,-45" Id="O5JeGt0XqZtPLaEmcdYgZW">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -15849,7 +15787,7 @@
               </Patch>
             </Node>
             <ControlPoint Id="CTz6KkxC9FZMgTWzT6KQAV" Bounds="907,1233" />
-            <Pad Id="Un5DMi4D58sPAs0UVN96TH" Comment="Dispose Cached Outputs" Bounds="2189,326,35,35" ShowValueBox="true" isIOBox="true" Value="True">
+            <Pad Id="Un5DMi4D58sPAs0UVN96TH" Comment="Dispose Cached Outputs" Bounds="1609,308,35,35" ShowValueBox="true" isIOBox="true" Value="True">
               <p:TypeAnnotation>
                 <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
                 <FullNameCategoryReference ID="Primitive" />
@@ -16027,7 +15965,7 @@
     ************************ FilterType ************************
 
 -->
-      <Node Name="FilterType" Bounds="315,-15" Id="OzU6d9beMLQPlemCKPaIcP">
+      <Node Name="FilterType" Bounds="467,-114" Id="OzU6d9beMLQPlemCKPaIcP">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -16198,7 +16136,7 @@
     ************************ FilterLayer ************************
 
 -->
-      <Node Name="FilterLayer" Bounds="449,-14" Id="TErceVP6HuCOGu4z0IFrka">
+      <Node Name="FilterLayer" Bounds="592,-114" Id="TErceVP6HuCOGu4z0IFrka">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -16363,7 +16301,7 @@
     ************************ RhinoReaderAsync ************************
 
 -->
-      <Node Name="RhinoReaderAsync" Bounds="148,64" Id="Jn1aMhWJ0jBOaR6Yk9R5t5">
+      <Node Name="RhinoReaderAsync" Bounds="290,-115" Id="Jn1aMhWJ0jBOaR6Yk9R5t5">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -16721,6 +16659,16 @@
           <Link Id="PC2BNNdCJRgQE43JZ2PxsT" Ids="SGaTUL1qo8EMe9LwmOWQpe,MaeSjhYtF7wOuLmUBFVBBj" />
         </Patch>
       </Node>
+      <Overlay Id="NFkwa8ORD1QLaQRylcgrlj" Name="" Bounds="-6,0,1638,1001" />
+      <Pad Id="Tev8kTZD8NaLZp5MuMwewb" Bounds="87,139,987,28" ShowValueBox="true" isIOBox="true" Value="Old stuff needs to be fitted for new version with VLRhinoObject">
+        <p:TypeAnnotation>
+          <Choice Kind="TypeFlag" Name="String" />
+        </p:TypeAnnotation>
+        <p:ValueBoxSettings>
+          <p:fontsize p:Type="Int32">9</p:fontsize>
+          <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+        </p:ValueBoxSettings>
+      </Pad>
     </Canvas>
     <!--
 

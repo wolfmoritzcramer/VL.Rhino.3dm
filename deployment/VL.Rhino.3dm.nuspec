@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
     <id>VL.Rhino.3dm</id>
-    <version>0.1.14</version>
+    <version>0.1.15</version>
     <title>VL.Rhino.3dm</title>
     <authors>Wolf Moritz Cramer</authors>
     <owners>Wolf Moritz Cramer</owners>

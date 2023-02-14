@@ -198,6 +198,7 @@
             <Pin Id="F079pieOJdxMfU8AJNVGZ1" Name="DefaultMaterial" Kind="InputPin" />
             <Pin Id="KmIiVgctqETOc8taXDXJ8e" Name="Force" Kind="InputPin" DefaultValue="False" />
             <Pin Id="CdkFrqj8ZrkMYTLl2Pi8VZ" Name="Entity" Kind="OutputPin" />
+            <Pin Id="NQLXKhtn25oPJec1Rm0zaH" Name="FaceCount" Kind="OutputPin" />
           </Node>
           <Node Bounds="1061,335,59,26" Id="JYd3gs1C0JJPvnHbDORLem">
             <p:NodeReference LastCategoryFullName="3D.AlignedBox" LastSymbolSource="CoreLibBasics.vl">
@@ -285,7 +286,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="PBRMaterial" />
             </p:NodeReference>
-            <Pin Id="G7IyfEx1RieMvwKpVrrQ7n" Name="Color" Kind="InputPin" />
+            <Pin Id="G7IyfEx1RieMvwKpVrrQ7n" Name="Color" Kind="InputPin" DefaultValue="1, 0.3800001, 0.3800001, 1" />
             <Pin Id="KdYYD6C0K2KOiQvXPMZPGS" Name="Metalness" Kind="InputPin" />
             <Pin Id="COl4sePJv4NN8a7dp2nJcA" Name="Roughness" Kind="InputPin" />
             <Pin Id="TxC1Qb765vALE1hSW4tR04" Name="Transparency" Kind="InputPin" />
@@ -342,6 +343,11 @@
             </p:TypeAnnotation>
           </Pad>
           <Pad Id="KVONncj6jnrO0SEQrM3c6Z" Comment="" Bounds="783,350,60,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="AYt0c4Buk6EPdYqyblHo5y" Comment="Color" Bounds="484,233,136,15" ShowValueBox="true" isIOBox="true" Value="0.31, 0.31, 0.31, 1">
+            <p:TypeAnnotation LastCategoryFullName="Color" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="RGBA" />
+            </p:TypeAnnotation>
+          </Pad>
         </Canvas>
         <Patch Id="Gh5LZHA8lXkLglMUXM1z2m" Name="Create" />
         <Patch Id="J7Zb8Wk7a4iPT0eqYTmRPr" Name="Update" />
@@ -365,7 +371,6 @@
         <Link Id="S86X4dHrzSrMNQoTh3UxnD" Ids="JU8f6xUkqXRPrRYBclHooi,EPxA7rlikIrMqg3xCkcGjx" />
         <Link Id="CRxo8bV89BGO3SinKaqHlz" Ids="JU8f6xUkqXRPrRYBclHooi,FcT4UBnNPhiLkDcvhOFN8B" />
         <Link Id="UWvuWqZLaedOrtJrzWB9Ay" Ids="HshrSh6PMdHL4T14vivBjr,KYTRYlOvbfMPkBtqZJxeW7" />
-        <Link Id="EwlMp0xUUsfPc66hNYdGET" Ids="O8qzSMzdPRqOCqrXYylez4,SB6nW9KDBu8MbGeCzcGETX" />
         <Link Id="DVuIgJX230yMPVTsmIU5hX" Ids="I3R1ZMroI7nLjtSpkOrmL4,GB2n3SKQuarMlbNa8jmVuY" />
         <Link Id="Al3rXrHP6W3NyDvVmWEIXO" Ids="GBkKsFVVe48NdRezBvm98m,NRjrWpasB2NQTSwQIfAv3Y" />
         <Link Id="Rr2L9Qwex4mPSfpzBlp2Se" Ids="E6KMSZH9GeEPgm7uD0qnJU,FWXhI1VSttVNZ7Xiut5M8s" />
@@ -393,6 +398,8 @@
         <Link Id="AmaA6Pp8H9cMXwiRhLdoSa" Ids="GgD2v5w1IdrNL1m2ESHW2S,HIyLsMDmFFBOnUushJuSGf" />
         <Link Id="IPYPSHDUWqTNBFzhPg6Jsv" Ids="HIyLsMDmFFBOnUushJuSGf,KVONncj6jnrO0SEQrM3c6Z" />
         <Link Id="RpMCpX2yjGaLIFeGljWjtk" Ids="AB2IHTEUZMAOOK4pfddd6y,SgzGqF22k2XPaNWZcZ8cWl" />
+        <Link Id="NDPIpOXBP6dOG81xUB2Sy9" Ids="AYt0c4Buk6EPdYqyblHo5y,G7IyfEx1RieMvwKpVrrQ7n" />
+        <Link Id="ISbBSOXWd01MTtePNdFbxS" Ids="O8qzSMzdPRqOCqrXYylez4,SB6nW9KDBu8MbGeCzcGETX" />
       </Patch>
     </Node>
   </Patch>

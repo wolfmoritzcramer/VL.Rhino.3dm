@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="AGwUbFTd056Pc6N7O5Te1V" LanguageVersion="2021.4.11.1332" Version="0.128">
+<Document xmlns:p="property" Id="AGwUbFTd056Pc6N7O5Te1V" LanguageVersion="2021.4.12.1374" Version="0.128">
   <Patch Id="RrfT02ngQgVQRfKQNnCPP3">
     <Canvas Id="ALwb6A8IF0dP6TpR1BrxOc" DefaultCategory="Main" CanvasType="FullCategory" />
     <!--
@@ -19,7 +19,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
             </p:NodeReference>
-            <Pin Id="CzA67lnL0iKOLnf38gSMsB" Name="Bounds" Kind="InputPin" DefaultValue="1390, 280.6667, 1120, 684" />
+            <Pin Id="CzA67lnL0iKOLnf38gSMsB" Name="Bounds" Kind="InputPin" DefaultValue="-1126, 720.6667, 1132, 718.6667" />
             <Pin Id="P8Ior3YIz3KO4iIEzc4SfV" Name="Bound to Document" Kind="InputPin" DefaultValue="False" />
             <Pin Id="PW5q5RCnvjMMIoeaP1HbTD" Name="Input" Kind="InputPin" />
             <Pin Id="LDHEYUS6N2uQRrkSv9rU13" Name="Camera" Kind="InputPin" />
@@ -31,6 +31,7 @@
             <Pin Id="IQVbXX0EztYM6dYQJegSQx" Name="Enable Default Post Effects" Kind="InputPin" DefaultValue="True" />
             <Pin Id="DoLiJVp8BMMPcIBED840tb" Name="Enable Keyboard Shortcuts" Kind="InputPin" />
             <Pin Id="BFbE2hqH5z6MVDkJaoNcI3" Name="Enabled" Kind="InputPin" DefaultValue="True" />
+            <Pin Id="J8JetgbFBKIN3tXQehtsSn" Name="Present Interval" Kind="InputPin" />
             <Pin Id="O7qePERJFVaN7wkfDpy9D8" Name="Output" Kind="OutputPin" />
             <Pin Id="UDa7othF3GrOIIiYiouQv2" Name="Client Bounds" Kind="OutputPin" />
             <Pin Id="B9MHVXoBvVfLvNL1EtHeto" Name="Input Source" Kind="OutputPin" />
@@ -159,6 +160,8 @@
             <Pin Id="HOyfT5FHdjaLjy0iYpsGlz" Name="Count" Kind="OutputPin" />
             <Pin Id="JTrPX33v0ZRNJZQSjRdRUx" Name="AlignedBox" Kind="OutputPin" />
             <Pin Id="LrHs4TJcbW9QZKMNTFQlpc" Name="RhinoViews" Kind="OutputPin" />
+            <Pin Id="FTWd4KYI9wzPhRKe7msuFj" Name="Output" Kind="OutputPin" />
+            <Pin Id="UZPmrauKUD1O3SnWsSNyYP" Name="MaterialTable" Kind="OutputPin" />
           </Node>
           <Pad Id="Ukukmxa8QUTM1DcSrOIKqi" Comment="Reload" Bounds="482,-9,35,35" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation>
@@ -403,10 +406,10 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="DFsJGkpHRApLmxiTM2iyjX" Location="VL.CoreLib" Version="2021.4.11-1332-g34bbc10a05" />
-  <NugetDependency Id="H5N9bOrVLjfOTNpCXPXSBf" Location="VL.Skia" Version="2021.4.11-1332-g34bbc10a05" />
+  <NugetDependency Id="DFsJGkpHRApLmxiTM2iyjX" Location="VL.CoreLib" Version="2021.4.12" />
+  <NugetDependency Id="H5N9bOrVLjfOTNpCXPXSBf" Location="VL.Skia" Version="2021.4.12" />
   <DocumentDependency Id="KWegUrUZwvQN2RuL3lfe4z" Location="../../VL.Rhino.3dm.vl" IsForward="true" />
-  <NugetDependency Id="SQA2o7ybXUyLVHoHrkQMrQ" Location="VL.Stride.Runtime" Version="2021.4.11-1332-g34bbc10a05" />
-  <NugetDependency Id="Gk21lcHxpi8PhB6zNAPJuH" Location="VL.Stride.Windows" Version="2021.4.11-1332-g34bbc10a05" />
-  <NugetDependency Id="GhfZWYrwYoNPQMVnhPNR1L" Location="Rhino3dm" Version="7.14.0" />
+  <NugetDependency Id="SQA2o7ybXUyLVHoHrkQMrQ" Location="VL.Stride.Runtime" Version="2021.4.12" />
+  <NugetDependency Id="Gk21lcHxpi8PhB6zNAPJuH" Location="VL.Stride.Windows" Version="2021.4.12" />
+  <NugetDependency Id="GhfZWYrwYoNPQMVnhPNR1L" Location="Rhino3dm" Version="7.15.0" />
 </Document>

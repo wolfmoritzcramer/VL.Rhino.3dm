@@ -19,7 +19,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
             </p:NodeReference>
-            <Pin Id="CzA67lnL0iKOLnf38gSMsB" Name="Bounds" Kind="InputPin" DefaultValue="-1126, 720.6667, 1132, 718.6667" />
+            <Pin Id="CzA67lnL0iKOLnf38gSMsB" Name="Bounds" Kind="InputPin" DefaultValue="-1128, 711.3333, 1136, 730" />
             <Pin Id="P8Ior3YIz3KO4iIEzc4SfV" Name="Bound to Document" Kind="InputPin" DefaultValue="False" />
             <Pin Id="PW5q5RCnvjMMIoeaP1HbTD" Name="Input" Kind="InputPin" />
             <Pin Id="LDHEYUS6N2uQRrkSv9rU13" Name="Camera" Kind="InputPin" />
@@ -97,10 +97,10 @@
             <Pin Id="NeAcX8vgijbLeJI069NNU8" Name="Transformation" Kind="InputPin" />
             <Pin Id="OYK6EKLZ148OYDawJhHeya" Name="Cube Map" Kind="InputPin" />
             <Pin Id="LBMkN1tiRPGPtg0JGJ7qdw" Name="Is Specular Only" Kind="InputPin" DefaultValue="False" />
-            <Pin Id="B4KgxmKy70yOmb5OgBHsd8" Name="Intensity" Kind="InputPin" DefaultValue="2.25" />
+            <Pin Id="B4KgxmKy70yOmb5OgBHsd8" Name="Intensity" Kind="InputPin" />
             <Pin Id="Ci5EsBLD1c2P3MzmZ8qUEw" Name="Force Build" Kind="InputPin" />
             <Pin Id="C2H4JUiMvAMON4jgsRquJV" Name="Background Intensity" Kind="InputPin" />
-            <Pin Id="ViwN7S96zKXLnMdzEzVsdX" Name="Background Enabled" Kind="InputPin" DefaultValue="False" />
+            <Pin Id="ViwN7S96zKXLnMdzEzVsdX" Name="Background Enabled" Kind="InputPin" DefaultValue="True" />
             <Pin Id="MmSfeR148DrPqyF7pgdolK" Name="Component" Kind="InputPin" />
             <Pin Id="ESj1CNBULBUOpP9LeiB5uD" Name="Children" Kind="InputPin" />
             <Pin Id="J6IxJGocrUoMYNlK16Vrpe" Name="Name" Kind="InputPin" />
@@ -160,8 +160,6 @@
             <Pin Id="HOyfT5FHdjaLjy0iYpsGlz" Name="Count" Kind="OutputPin" />
             <Pin Id="JTrPX33v0ZRNJZQSjRdRUx" Name="AlignedBox" Kind="OutputPin" />
             <Pin Id="LrHs4TJcbW9QZKMNTFQlpc" Name="RhinoViews" Kind="OutputPin" />
-            <Pin Id="FTWd4KYI9wzPhRKe7msuFj" Name="Output" Kind="OutputPin" />
-            <Pin Id="UZPmrauKUD1O3SnWsSNyYP" Name="MaterialTable" Kind="OutputPin" />
           </Node>
           <Pad Id="Ukukmxa8QUTM1DcSrOIKqi" Comment="Reload" Bounds="482,-9,35,35" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation>
@@ -243,7 +241,7 @@
             <Pin Id="FLQGR6cg5nzQTbjgMO6z0Y" Name="Component" Kind="InputPin" />
             <Pin Id="MFvhRwJChzoQZyH8ilMekC" Name="Children" Kind="InputPin" />
             <Pin Id="KQWG3tWBYi5PcpQUicgqrM" Name="Name" Kind="InputPin" />
-            <Pin Id="LgeCipd3fmeOwh1iZMgGW9" Name="Enabled" Kind="InputPin" />
+            <Pin Id="LgeCipd3fmeOwh1iZMgGW9" Name="Enabled" Kind="InputPin" DefaultValue="True" />
             <Pin Id="O8qzSMzdPRqOCqrXYylez4" Name="Entity" Kind="OutputPin" />
           </Node>
           <Pad Id="E6KMSZH9GeEPgm7uD0qnJU" Comment="Sample Radius" Bounds="1196,442,35,15" ShowValueBox="true" isIOBox="true" Value="0.3">
@@ -351,6 +349,21 @@
               <Choice Kind="TypeFlag" Name="RGBA" />
             </p:TypeAnnotation>
           </Pad>
+          <Node Bounds="1019,272,105,19" Id="KprDq7QN6NFLlUqUaHWbA4">
+            <p:NodeReference LastCategoryFullName="Stride.Assets" LastSymbolSource="VL.Stride.Assets.Windows.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="FileTexture" />
+            </p:NodeReference>
+            <Pin Id="SSQoxsMqe0MNfyQauRqtyH" Name="Path" Kind="InputPin" DefaultValue="RhinoStudio.png" />
+            <Pin Id="DdL6T5oL6S6OkLbVRPyROi" Name="Generate Mipmaps" Kind="InputPin" />
+            <Pin Id="Fm2ls7FF6MuOja4Q3qa2qo" Name="Premultiply Alpha" Kind="InputPin" />
+            <Pin Id="P2rffiSBjnxQSMcty3giZx" Name="Compress" Kind="InputPin" />
+            <Pin Id="NyPKRtriOTuOda52id3V5J" Name="Alpha Format" Kind="InputPin" />
+            <Pin Id="FgMT7LzZAg8QcxjERbsqeG" Name="Reload" Kind="InputPin" />
+            <Pin Id="Ms9F7WO6Oe2MamlUQOfSQU" Name="Texture" Kind="OutputPin" />
+            <Pin Id="HvonjlS5270OVdERbfr0yY" Name="Is Loading" Kind="OutputPin" />
+            <Pin Id="OBlpZ65n2bUMnaNW6e8Uhn" Name="Already Loaded" Kind="OutputPin" />
+          </Node>
         </Canvas>
         <Patch Id="Gh5LZHA8lXkLglMUXM1z2m" Name="Create" />
         <Patch Id="J7Zb8Wk7a4iPT0eqYTmRPr" Name="Update" />
@@ -386,7 +399,6 @@
         <Link Id="ACCG8SLkaCMMSiTBJ0pyec" Ids="QfX1oqxMVABNvqaYLGTPxF,AglFmRIjy6yLypEp0ZlpJw" />
         <Link Id="HeY6bwPvSX5LXvECsDrtxT" Ids="BXknsNN8YElQYBs9xAQezY,K0pAhkeRQIAPkyLGsTvxa0" />
         <Link Id="TlgIKmGI5W1QWsik9cwmiI" Ids="Vb7g1IwqXIRNRNRHldDnYP,TCWGTzktviRPPxRbgfTc2S" />
-        <Link Id="DKVdvdT1bXcPhbFZU1dcx5" Ids="VJG0qI2x6IeNa8iusVHooo,F079pieOJdxMfU8AJNVGZ1" />
         <Link Id="Ih6S1fOIb9ZL7OPG3BbjZo" Ids="PTVjtBt8XaSQOnktzHGlqA,CD6ZB6qGYMNLDbRrMNEKqZ" />
         <Link Id="Dshx5CC0FNKMhFmAcPyVLW" Ids="K15Oo0Z9KMQQQaHOVKGVtc,NvjFFUeuURmMMDJK8v6ygO" />
         <Link Id="KwFdjPHb7F0NRVqkBkG0lv" Ids="QfX1oqxMVABNvqaYLGTPxF,PP5uUWJF6LLOQ4xKvkxz2j" />
@@ -403,6 +415,8 @@
         <Link Id="RpMCpX2yjGaLIFeGljWjtk" Ids="AB2IHTEUZMAOOK4pfddd6y,SgzGqF22k2XPaNWZcZ8cWl" />
         <Link Id="NDPIpOXBP6dOG81xUB2Sy9" Ids="AYt0c4Buk6EPdYqyblHo5y,G7IyfEx1RieMvwKpVrrQ7n" />
         <Link Id="ISbBSOXWd01MTtePNdFbxS" Ids="O8qzSMzdPRqOCqrXYylez4,SB6nW9KDBu8MbGeCzcGETX" />
+        <Link Id="OnfRvlX1mNdPHiOR68Gz7l" Ids="VJG0qI2x6IeNa8iusVHooo,F079pieOJdxMfU8AJNVGZ1" />
+        <Link Id="A6q8ifgZ10KPPOhtxuQkkP" Ids="Ms9F7WO6Oe2MamlUQOfSQU,OYK6EKLZ148OYDawJhHeya" />
       </Patch>
     </Node>
   </Patch>

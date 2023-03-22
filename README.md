@@ -17,6 +17,5 @@ Download: http://visualprogramming.net
 
 Supported by:
 
-Jan Henrik Hansen Architects
-
+Jan Henrik Hansen Architects,
 Studio Brüll

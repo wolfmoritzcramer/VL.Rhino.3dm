@@ -8,11 +8,15 @@ In order to use this library with VL you have to install the nuget that is avail
 
     nuget install VL.Rhino.3dm
 
+https://www.nuget.org/packages/VL.Rhino.3dm
+
 
 Try it with vvvv, the visual live-programming environment for .NET  
 Download: http://visualprogramming.net
 
 
 Supported by:
+
 Jan Henrik Hansen Architects
+
 Studio Brüll

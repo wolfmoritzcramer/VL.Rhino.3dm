@@ -10681,10 +10681,10 @@
       </Node>
       <!--
 
-    ************************ RhinoScene ************************
+    ************************ RhinoEntity ************************
 
 -->
-      <Node Name="RhinoScene" Bounds="133,-178" Id="O5JeGt0XqZtPLaEmcdYgZW">
+      <Node Name="RhinoEntity" Bounds="133,-178" Id="O5JeGt0XqZtPLaEmcdYgZW">
         <p:NodeReference LastCategoryFullName="Primitive" LastDependency="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -13911,7 +13911,7 @@
     </Node>
   </Patch>
   <NugetDependency Id="BZG0wb3qQqcM7tQUdipLIu" Location="VL.Stride" Version="2024.6.3" />
-  <NugetDependency Id="CXubKntkf96N781SJal9ii" Location="Rhino3dm" IsForward="true" Version="8.6.0" />
+  <NugetDependency Id="CXubKntkf96N781SJal9ii" Location="Rhino3dm" IsForward="true" Version="7.15.0" />
   <PlatformDependency Id="K6zKOuz09xoPxD93M7WU3p" Location="System.Collections.Specialized" />
   <NugetDependency Id="Mm8thTQ4hIxNZVnLO5irWp" Location="VL.Stride.TextureFX" Version="2024.6.3" />
 </Document>

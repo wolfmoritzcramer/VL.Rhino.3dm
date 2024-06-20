@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
     <id>VL.Rhino.3dm</id>
-    <version>0.1.21</version>
+    <version>0.1.22</version>
     <title>VL.Rhino.3dm</title>
     <authors>Wolf Moritz Cramer</authors>
     <owners>Wolf Moritz Cramer</owners>
@@ -15,7 +15,7 @@
 	<license type="expression">LGPL-3.0-only</license>
 	<icon>icon\nugeticon.png</icon>
    <dependencies>
-      <dependency id="Rhino3dm" version="7.15.0" />
+      <dependency id="Rhino3dm" version="8.6.0" />
   </dependencies>      
   </metadata>
   <files>

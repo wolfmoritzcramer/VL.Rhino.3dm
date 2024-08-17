@@ -30,7 +30,7 @@ https://thenodeinstitute.org/courses/ss24-vvvv-integrating-rhino-3d-with-vvvv/
 
 ---
 ### Versions
-Tested with vvvv gamma (VL) 6.6 and Rhino3dm 6.9 (Rhino Files are downward compatible)
+Tested with vvvv gamma (VL) 6.6 and Rhino3dm 8.9 (Rhino Files are downward compatible)
 
 
 ### Geometry

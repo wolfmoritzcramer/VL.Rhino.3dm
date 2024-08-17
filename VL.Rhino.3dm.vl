@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="N2LvA0Qm4nqO2EKfb8zvTo" LanguageVersion="2024.6.5" Version="0.128">
-  <NugetDependency Id="RKFCmk1Lg5EP3I4IQegLTw" Location="VL.CoreLib" Version="2024.6.5" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="LpPc3a7UstmMfWIcJgD7q7" LanguageVersion="2024.6.6" Version="0.128">
+  <NugetDependency Id="RKFCmk1Lg5EP3I4IQegLTw" Location="VL.CoreLib" Version="2024.6.6" />
   <Patch Id="Th8hpfHvBF4Lk6VOwDCc9D">
     <Canvas Id="NtZT52Xp5qNOXK0fF2H7kv" DefaultCategory="Graphics.Rhino.3dm" CanvasType="FullCategory">
       <!--
@@ -15689,8 +15689,8 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="BZG0wb3qQqcM7tQUdipLIu" Location="VL.Stride" Version="2024.6.5" />
+  <NugetDependency Id="BZG0wb3qQqcM7tQUdipLIu" Location="VL.Stride" Version="2024.6.6" />
   <NugetDependency Id="CXubKntkf96N781SJal9ii" Location="Rhino3dm" IsForward="true" Version="8.6.0" />
   <PlatformDependency Id="K6zKOuz09xoPxD93M7WU3p" Location="System.Collections.Specialized" />
-  <NugetDependency Id="Mm8thTQ4hIxNZVnLO5irWp" Location="VL.Stride.TextureFX" Version="2024.6.5" />
+  <NugetDependency Id="Mm8thTQ4hIxNZVnLO5irWp" Location="VL.Stride.TextureFX" Version="2024.6.6" />
 </Document>

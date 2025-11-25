@@ -13,8 +13,26 @@ vvvv/VL: http://visualprogramming.net<br>
 McNeel's Rhinoceros3d
 https://www.rhino3d.com/
 
+<br>
+## Support the Development of VL.Rhino.3dm
 
+VL.Rhino.3dm is an independent open-source project that I maintain in my free time.  
+If this library is useful in your work, please consider supporting its ongoing development.
 
+Your contribution directly helps to maintain the codebase, fix bugs, improve documentation, and build new features.
+
+### 🧾 For companies and professional users  
+You can make a voluntary contribution via Stripe (supports invoices & VAT ID):
+
+👉 **[Support via Stripe](https://donate.stripe.com/5kQcN51VOgXd14m9VigIo00)**
+
+### ☕ For individuals and community supporters  
+A lighter, more casual way to support the project:
+
+👉 **[Support on Ko-fi](https://ko-fi.com/wmccc)**
+
+Thank you for helping keep the project alive!
+<br><br>
 ## Usage / Installation
 In order to use this library with VL you have to install the nuget that is available via nuget.org. For information on how to use nugets with VL, see Managing Nugets in the VL documentation. As described there you go to the commandline and then type:
 ```bash

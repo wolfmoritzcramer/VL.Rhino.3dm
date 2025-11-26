@@ -19,7 +19,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
             </p:NodeReference>
-            <Pin Id="CzA67lnL0iKOLnf38gSMsB" Name="Bounds" Kind="InputPin" DefaultValue="-1226, 560, 1128, 707.3333" />
+            <Pin Id="CzA67lnL0iKOLnf38gSMsB" Name="Bounds" Kind="InputPin" DefaultValue="1046, 571.3333, 1128, 707.3333" />
             <Pin Id="P8Ior3YIz3KO4iIEzc4SfV" Name="Bound to Document" Kind="InputPin" DefaultValue="False" />
             <Pin Id="SIEUgMRvzzCLFPKszTxo6C" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
             <Pin Id="PnrcpDqqYLKLRygk0ol2kk" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
@@ -152,6 +152,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="FilterLayer" />
             </p:NodeReference>
+            <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
             <Pin Id="HQhzjajB2qXMh74Tg3O6QE" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="FijhVJ7q1rJOQ5BCBkUPS3" Name="RhinoGeometry" Kind="InputPin" />
             <Pin Id="PPtoKrndAv4PjT0IUzuOH1" Name="LayerIndex" Kind="InputPin" DefaultValue="5" />
@@ -272,6 +273,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="FilterKey" />
             </p:NodeReference>
+            <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
             <Pin Id="O4UgdOoXzNRNuInihHOztW" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="Rmgid81ecDEPyghwtsJ4fB" Name="RhinoGeometry" Kind="InputPin" />
             <Pin Id="D1rbHdbrCiTQGCm5V1sbjS" Name="Key" Kind="InputPin" />
@@ -284,6 +286,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="FilterKeyValue" />
             </p:NodeReference>
+            <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
             <Pin Id="L2mUk1fRtocNjMw4BDNpMg" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="By7qIXYlqhoNDpz6M1aTmF" Name="RhinoGeometry" Kind="InputPin" />
             <Pin Id="OmIaP2vQgiiNyGHp2laUwx" Name="Key" Kind="InputPin" />
@@ -296,6 +299,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="FilterLayer" />
             </p:NodeReference>
+            <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
             <Pin Id="P1ZSXGZMTogMiwt30VXAWN" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="FFfiQ1brReFP1UWUpX7l8b" Name="RhinoGeometry" Kind="InputPin" />
             <Pin Id="M8Ji7hNUtwnMHDn6uXS3z7" Name="LayerIndex" Kind="InputPin" />
@@ -309,6 +313,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="FilterMaterial" />
             </p:NodeReference>
+            <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
             <Pin Id="G6qYYT4URznMGQuPDOGxVE" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="JmNWXQcpNYJL6bgeaOHb20" Name="RhinoGeometry" Kind="InputPin" />
             <Pin Id="Fu5XwYDVpbOMkgLWVPHfH2" Name="MaterialName" Kind="InputPin" />
@@ -320,6 +325,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="FilterName" />
             </p:NodeReference>
+            <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
             <Pin Id="KEXJ8MbDG8TNT1Z3jWeNKo" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="QZlWCp9iZoQLp3K1ywDuMJ" Name="RhinoGeometry" Kind="InputPin" />
             <Pin Id="EeYFhdGy67tLWQNtgUScg3" Name="Name" Kind="InputPin" />
@@ -331,6 +337,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="FilterType" />
             </p:NodeReference>
+            <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
             <Pin Id="HawyhbMZ1CbPGAQRrWnNtk" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="B8nEhbSdMxnMPMGaw6204u" Name="RhinoGeometry" Kind="InputPin" />
             <Pin Id="Rob65Toy10RMyRPRUVXIdq" Name="Type" Kind="InputPin" />
@@ -342,6 +349,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="FilterValue" />
             </p:NodeReference>
+            <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
             <Pin Id="UHKYRircS6mLYAlgfgRkt0" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="FCgPjtG0dWeN00amAdOXmT" Name="RhinoGeometry" Kind="InputPin" />
             <Pin Id="LnWSWJT8Ji0MyacN5kBoQG" Name="Value" Kind="InputPin" />
@@ -388,8 +396,8 @@
   </Patch>
   <NugetDependency Id="DFsJGkpHRApLmxiTM2iyjX" Location="VL.CoreLib" Version="2025.7.0" />
   <NugetDependency Id="H5N9bOrVLjfOTNpCXPXSBf" Location="VL.Skia" Version="2025.7.0" />
-  <DocumentDependency Id="KWegUrUZwvQN2RuL3lfe4z" Location="../../VL.Rhino.3dm.vl" IsForward="true" />
   <NugetDependency Id="SQA2o7ybXUyLVHoHrkQMrQ" Location="VL.Stride.Runtime" Version="2025.7.0" />
   <NugetDependency Id="Gk21lcHxpi8PhB6zNAPJuH" Location="VL.Stride.Windows" Version="2025.7.0" />
   <NugetDependency Id="GhfZWYrwYoNPQMVnhPNR1L" Location="Rhino3dm" Version="8.17.0" />
+  <NugetDependency Id="R9HjVZgBAoAPU6wfjCdRA7" Location="VL.Rhino.3dm" Version="0.1.24" />
 </Document>

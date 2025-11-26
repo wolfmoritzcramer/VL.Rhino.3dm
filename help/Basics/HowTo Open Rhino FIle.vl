@@ -19,7 +19,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
             </p:NodeReference>
-            <Pin Id="CzA67lnL0iKOLnf38gSMsB" Name="Bounds" Kind="InputPin" DefaultValue="-1430.6666, 329.33334, 935.3333, 817.3333" />
+            <Pin Id="CzA67lnL0iKOLnf38gSMsB" Name="Bounds" Kind="InputPin" DefaultValue="886, 539.3333, 935.3333, 817.3333" />
             <Pin Id="P8Ior3YIz3KO4iIEzc4SfV" Name="Bound to Document" Kind="InputPin" DefaultValue="False" />
             <Pin Id="SVty7DzdUiQMZs9Bm5HHvh" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
             <Pin Id="Nxzig0NASsILaK5Zomvohl" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
@@ -75,6 +75,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="RhinoReader" />
             </p:NodeReference>
+            <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
             <Pin Id="JfZEmvXKBzpOiLcpwlox7p" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="OGAzgBN7AH5QN01LLpiSpZ" Name="Filename" Kind="InputPin" />
             <Pin Id="Sso0WH9h3MYNRGyQu7tGuj" Name="Convert To Meters" Kind="InputPin" DefaultValue="True" />
@@ -100,6 +101,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="RhinoEntity" />
             </p:NodeReference>
+            <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
             <Pin Id="IgEeBbBbhwRQT6M5FW9Tew" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="MVT7oToiFXXP1k9i6KH8aY" Name="Transformation" Kind="InputPin" />
             <Pin Id="NvjFFUeuURmMMDJK8v6ygO" Name="RhinoGeometry" Kind="InputPin" />
@@ -193,6 +195,7 @@
                       <CategoryReference Kind="ClassType" Name="RhinoView" NeedsToBeDirectParent="true" />
                       <Choice Kind="OperationCallFlag" Name="Camera" />
                     </p:NodeReference>
+                    <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
                     <Pin Id="KA6kkGD8Zy2MtwWIzPeztD" Name="Input" Kind="StateInputPin" />
                     <Pin Id="AJdJZL2qPv0NVsQC5c8amd" Name="Output" Kind="StateOutputPin" />
                     <Pin Id="AB2IHTEUZMAOOK4pfddd6y" Name="Camera" Kind="OutputPin" />
@@ -428,8 +431,8 @@
   </Patch>
   <NugetDependency Id="DFsJGkpHRApLmxiTM2iyjX" Location="VL.CoreLib" Version="2025.7.0" />
   <NugetDependency Id="H5N9bOrVLjfOTNpCXPXSBf" Location="VL.Skia" Version="2025.7.0" />
-  <DocumentDependency Id="KWegUrUZwvQN2RuL3lfe4z" Location="../../VL.Rhino.3dm.vl" IsForward="true" />
   <NugetDependency Id="SQA2o7ybXUyLVHoHrkQMrQ" Location="VL.Stride.Runtime" Version="2025.7.0" />
   <NugetDependency Id="Gk21lcHxpi8PhB6zNAPJuH" Location="VL.Stride.Windows" Version="2025.7.0" />
   <NugetDependency Id="GhfZWYrwYoNPQMVnhPNR1L" Location="Rhino3dm" Version="8.17.0" />
+  <NugetDependency Id="H0HeIQWnzRxOjdkfBcb3py" Location="VL.Rhino.3dm" Version="0.1.24" />
 </Document>

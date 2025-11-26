@@ -19,7 +19,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
             </p:NodeReference>
-            <Pin Id="CzA67lnL0iKOLnf38gSMsB" Name="Bounds" Kind="InputPin" DefaultValue="-1982.6666, 344, 1108.6666, 980" />
+            <Pin Id="CzA67lnL0iKOLnf38gSMsB" Name="Bounds" Kind="InputPin" DefaultValue="1306, 332.66666, 1108.6666, 980" />
             <Pin Id="P8Ior3YIz3KO4iIEzc4SfV" Name="Bound to Document" Kind="InputPin" DefaultValue="False" />
             <Pin Id="ESZrIDD0XFNLl1442Ffm7E" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
             <Pin Id="Ck9MkmUVNZtNINILVLCLcO" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
@@ -141,6 +141,7 @@
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationCallFlag" Name="SetCurveResolution" />
                     </p:NodeReference>
+                    <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
                     <Pin Id="FDRP7eeP3a4LZ5l61jEYWS" Name="Input" Kind="StateInputPin" />
                     <Pin Id="POarEnbuMqIMM37daZQOqg" Name="Resolution" Kind="InputPin" DefaultValue="121" />
                     <Pin Id="H5m5xEPmWtCQbTXGZFfFI9" Name="Output" Kind="StateOutputPin" />
@@ -278,8 +279,8 @@
   </Patch>
   <NugetDependency Id="DFsJGkpHRApLmxiTM2iyjX" Location="VL.CoreLib" Version="2025.7.0" />
   <NugetDependency Id="H5N9bOrVLjfOTNpCXPXSBf" Location="VL.Skia" Version="2025.7.0" />
-  <DocumentDependency Id="KWegUrUZwvQN2RuL3lfe4z" Location="../../VL.Rhino.3dm.vl" IsForward="true" />
   <NugetDependency Id="SQA2o7ybXUyLVHoHrkQMrQ" Location="VL.Stride.Runtime" Version="2025.7.0" />
   <NugetDependency Id="Gk21lcHxpi8PhB6zNAPJuH" Location="VL.Stride.Windows" Version="2025.7.0" />
   <NugetDependency Id="GhfZWYrwYoNPQMVnhPNR1L" Location="Rhino3dm" Version="8.17.0" />
+  <NugetDependency Id="FfxyC4RSv8JNUIdpu98oRY" Location="VL.Rhino.3dm" Version="0.1.24" />
 </Document>
